@@ -11,7 +11,6 @@ let y = 3;
 let marks = 0;
 
 num = getNumber(x, y);
-console.log(num);
 guessedNum = prompt(`Guess a number between ${x} and ${y}: `);
 guessedNum = parseInt(guessedNum);
 
@@ -21,7 +20,6 @@ while (guessedNum == num) {
   y++;
   marks++;
   num = getNumber(x, y);
-  console.log(num);
   guessedNum = prompt(`Guess a number between ${x} and ${y}: `);
   guessedNum = parseInt(guessedNum);
 }
