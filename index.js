@@ -25,5 +25,6 @@ while (guessedNum == num) {
   guessedNum = prompt(`Guess a number between ${x} and ${y}: `);
   guessedNum = parseInt(guessedNum);
 }
+
 console.log("You guessed wrongly");
 console.log(`Total marks earned by ${username} is ${marks}`);
